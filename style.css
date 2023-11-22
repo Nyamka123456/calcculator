@@ -1,11 +1,12 @@
 .calculator {
-    width: 200px;
+    width: 250px;
     margin: auto;
     margin-top: 50px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
+    background-color: #008080;
 }
 
 button {
@@ -13,4 +14,19 @@ button {
     height: 40px;
     font-size: 16px;
     margin: 5px;
+}
+.display{
+    width: 95%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.na{
+    background-color: gray;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.an{
+    background-color: orange;
+    border: 1px solid;
+    border-radius: 5px;
 }
